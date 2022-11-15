@@ -1,0 +1,145 @@
+#betcontainer {
+  width: 300px;
+
+  #buttonarea {
+    display: flex;
+    justify-content: space-around;
+    button {
+      background-color: #05386b;
+      padding: 5px 10px;
+
+      color: wheat;
+      font-size: 20px;
+      font-weight: 300;
+      border-radius: 10px;
+      border: solid;
+      border-width: 2px;
+      border-color: wheat;
+    }
+  }
+
+  #betcontent {
+    border: #333;
+    border-style: none;
+    height: 150px;
+    display: grid;
+
+    .box {
+      text-align: center;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin-top: 10px;
+      height: 30px;
+    }
+  }
+}
+
+.bottomhalf {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 600px;
+  right: 610px;
+  align-items: center;
+
+  .betbtn {
+    width: 200px;
+    height: 50px;
+    background-color: #05386b;
+
+    border-radius: 10px;
+    border: solid;
+    border-width: 3px;
+    border-color: wheat;
+    margin-right: 0;
+    color: wheat;
+
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.betformbody {
+  input {
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 10px;
+  }
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-top: 10px;
+  border-style: solid;
+
+  .row {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 70px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description {
+    height: 120px;
+    border-radius: 13px;
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 5px;
+
+    p {
+      margin-top: 10px;
+      overflow: scroll;
+      border-style: solid;
+      font-size: 13px;
+
+      // border-bottom: 10px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      // margin-bottom: 5px;
+    }
+  }
+
+  .winlossbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    button {
+      width: 100px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.imagepos {
+  position: absolute;
+  top: 250px;
+  right: 550px;
+}

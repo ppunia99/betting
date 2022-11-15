@@ -1,0 +1,57 @@
+#profilecontainer {
+  background-color: #05386b;
+  width: 391px;
+  border-color: wheat;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .totals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+
+    .wins {
+      color: wheat;
+    }
+    .losses {
+      color: wheat;
+    }
+  }
+
+  .ratio {
+    font-size: 40px;
+    font-weight: 500;
+    color: #5cdb95;
+  }
+}
+
+.welcome-pos {
+  display: flex;
+  justify-content: center;
+
+  .welcome {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 2500px;
+    height: 100px;
+    background-color: #5cdb95;
+    padding: 15px 30px;
+    color: #05386b;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-width: 6px;
+    border-color: wheat;
+    margin-right: 0;
+  }
+}

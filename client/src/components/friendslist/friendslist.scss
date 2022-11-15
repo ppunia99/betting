@@ -1,0 +1,42 @@
+#friendcontainer {
+  background-color: #05386b;
+  width: 391px;
+  color: #5cdb95;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 13px;
+  border-color: wheat;
+  .title {
+    text-align: center;
+
+    .addfriendbtn {
+      position: relative;
+      font-size: 25px;
+      font-weight: 700;
+      color: wheat;
+      left: 150px;
+      bottom: 45px;
+    }
+  }
+
+  .friendnames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .friends {
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      border-color: wheat;
+      border-style: solid;
+      color: wheat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+}

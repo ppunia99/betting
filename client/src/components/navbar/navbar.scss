@@ -1,0 +1,32 @@
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 10px;
+  background-color: #5cdb95;
+  height: 50px;
+  margin-bottom: 15px;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #05386b;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    img {
+      padding: 65px;
+      position: relative;
+      height: 180px;
+      top: 5px;
+      right: 52px;
+
+      filter: invert(25%) sepia(27%) saturate(4856%) hue-rotate(193deg)
+        brightness(81%) contrast(96%);
+    }
+  }
+}
